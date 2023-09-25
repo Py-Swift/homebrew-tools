@@ -1,6 +1,7 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+
+# Find machine type
+UNAME_MACHINE="$(uname -m)"
+
 class SwiftonizeMaster < Formula
   desc ""
   homepage ""
