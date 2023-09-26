@@ -4,7 +4,7 @@ from github import Github
 from github import Auth
 from pprint import pprint
 # using an access token
-auth = Auth.Token("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")
+auth = Auth.Token("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")
 
 # First create a Github instance:
 

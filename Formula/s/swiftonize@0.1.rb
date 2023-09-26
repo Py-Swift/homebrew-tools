@@ -8,41 +8,37 @@ class SwiftonizeAT01 < Formula
 
   url "https://github.com/PythonSwiftLink/SwiftonizeExec/archive/0.1.zip"
   version "0.1"
-  #sha256 "22813a1b19215b8e43e8d25b8b9d5646e6abe0bdeb84e0573cd448e2e487a12c"
+  sha256 "d89a98b2673e28608c4489e6439bd33a3b39d99945742370ceaca4c47b3c6cf0"
   license ""
 
-  # depends_on "cmake" => :build
-  
   def processor_count
 	  ((`which hwprefs` != '') ? `hwprefs thread_count` : `sysctl -n hw.ncpu`).to_i
   end
   
+  def plat
+    case RUBY_PLATFORM
+    when /x86_64/ then :x86_64
+    when /aarch64/ then :aarch64
+    else :dunno
+    end
+  end
 
   def install
-
+    
     system "swift", "build", "-c", "release", "--disable-sandbox"
     
-    if [[ "${UNAME_MACHINE}" == "arm64" ]]
-    then
-        bin.install ".build/arm64-apple-macosx/release/SwiftonizeExecutable" => "Swiftonize"
-    else
+    if self.plat == :x86_64
+      then
         bin.install ".build/x86_64-apple-macosx/release/SwiftonizeExecutable" => "Swiftonize"
+      else
+        bin.install ".build/arm64-apple-macosx/release/SwiftonizeExecutable" => "Swiftonize"
     end
-  
+    
     bin.install "python_stdlib"
     bin.install "python-extra"
     end
 
   test do
-    # `test do` will create, run in and delete a temporary directory.
-    #
-    # This test will fail and we won't accept that! For Homebrew/homebrew-core
-    # this will need to be a test that verifies the functionality of the
-    # software. Run the test with `brew test SwiftonizeExec`. Options passed
-    # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
-    #
-    # The installed folder is not in the path, so use the entire path to any
-    # executables being tested: `system "#{bin}/program", "do", "something"`.
     system "false"
   end
 end
