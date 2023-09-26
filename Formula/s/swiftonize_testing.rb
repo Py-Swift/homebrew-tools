@@ -2,12 +2,12 @@
 # Find machine type
 UNAME_MACHINE="$(uname -m)"
 
-class Swiftonize < Formula
+class SwiftonizeTesting < Formula
   desc ""
   homepage ""
 
-  url "https://github.com/PythonSwiftLink/SwiftonizeExec/archive/#{version}.zip"
-  version "#{version}"
+  url "https://github.com/PythonSwiftLink/SwiftonizeExec/archive/testing.zip"
+  version "testing"
   #sha256 "22813a1b19215b8e43e8d25b8b9d5646e6abe0bdeb84e0573cd448e2e487a12c"
   license ""
 
