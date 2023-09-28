@@ -6,7 +6,7 @@ class SwiftonizeAT02 < Formula
 
   url "https://github.com/PythonSwiftLink/SwiftonizeExec/releases/download/0.2/swiftonize.tar.gz"
   version "0.2"
-  sha256 "7eade4efefeb87879e23a9c311fd83adcf3bba0206369cab76f5c50be2e9092c"
+  sha256 "e94bd7d98399eafabb94c15d08fd2d6104a82eeca3863eb686299b3583afb9d1"
   license ""
 
   def install
