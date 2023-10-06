@@ -1,6 +1,6 @@
 
 
-class Swiftonize < Formula
+class SwiftonizeAT03 < Formula
   desc ""
   homepage ""
 
