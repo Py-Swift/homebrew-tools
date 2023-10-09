@@ -1,5 +1,5 @@
 
-class PSProject < Formula
+class Psproject < Formula
   desc ""
   homepage ""
 
