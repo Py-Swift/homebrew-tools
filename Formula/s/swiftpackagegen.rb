@@ -4,9 +4,9 @@ class Swiftpackagegen < Formula
   desc ""
   homepage ""
 
-  url "https://github.com/PythonSwiftLink/SwiftPackageGen/releases/download/0.0.3/SwiftPackageGen.tar.gz"
-  version "0.0.3"
-  sha256 "4200d4e337efa806d2e9f0a2c8e7624a4421fa6accac16c427251e6c1ec3d976"
+  url "https://github.com/PythonSwiftLink/SwiftPackageGen/releases/download/0.1.0/SwiftPackageGen.tar.gz"
+  version "0.1.0"
+  sha256 "dcc30584d92b2af021f2d0a1afac7cc76ef5d2676a3de96adef723bffda02d31"
   license ""
 
   def install

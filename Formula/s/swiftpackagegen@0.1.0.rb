@@ -6,7 +6,7 @@ class SwiftpackagegenAT010 < Formula
 
   url "https://github.com/PythonSwiftLink/SwiftPackageGen/releases/download/0.1.0/SwiftPackageGen.tar.gz"
   version "0.1.0"
-  sha256 "98691d07146b0d161034d03316e1fe3dc66eac62611252398bb2ac17877580a8"
+  sha256 "dcc30584d92b2af021f2d0a1afac7cc76ef5d2676a3de96adef723bffda02d31"
   license ""
 
   def install
