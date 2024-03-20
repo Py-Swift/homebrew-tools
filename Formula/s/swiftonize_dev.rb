@@ -31,9 +31,9 @@ class SwiftonizeDev < Formula
     
     if self.plat == :x86_64
       then
-        bin.install ".build/x86_64-apple-macosx/release/SwiftonizeExecutable" => "Swiftonize"
+        bin.install ".build/x86_64-apple-macosx/release/SwiftonizeExecutable" => "swiftonize_dev"
       else
-        bin.install ".build/arm64-apple-macosx/release/SwiftonizeExecutable" => "Swiftonize"
+        bin.install ".build/arm64-apple-macosx/release/SwiftonizeExecutable" => "swiftonize_dev"
     end
     
     #bin.install "python_stdlib"
