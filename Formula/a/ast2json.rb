@@ -2,7 +2,7 @@
 # Find machine type
 UNAME_MACHINE="$(uname -m)"
 
-class Ast2Json < Formula
+class Ast2json < Formula
   desc ""
   homepage ""
 
