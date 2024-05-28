@@ -2,7 +2,7 @@
 # Find machine type
 UNAME_MACHINE="$(uname -m)"
 
-class SwiftonizeDev < Formula
+class Ast2Json < Formula
   desc ""
   homepage ""
 
