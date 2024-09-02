@@ -1,5 +1,5 @@
 
-class Psproject < Formula
+class PsprojectMaster < Formula
   depends_on "xcodegen"
   desc ""
   homepage ""
@@ -33,6 +33,7 @@ class Psproject < Formula
         bin.install ".build/arm64-apple-macosx/release/PSProject" => "psproject_dev"
         bin.install ".build/arm64-apple-macosx/release/PythonSwiftProject_PSProjectGen.bundle"
     end
+  end
   
   test do
     system "false"
