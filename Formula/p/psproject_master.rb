@@ -27,10 +27,10 @@ class PsprojectMaster < Formula
     
     if self.plat == :x86_64
       then
-        bin.install ".build/x86_64-apple-macosx/release/PSProject" => "psproject_dev"
+        bin.install ".build/x86_64-apple-macosx/release/PSProjectCLI" => "psproject_dev"
         bin.install ".build/x86_64-apple-macosx/release/PythonSwiftProject_PSProjectGen.bundle"
       else
-        bin.install ".build/arm64-apple-macosx/release/PSProject" => "psproject_dev"
+        bin.install ".build/arm64-apple-macosx/release/PSProjectCLI" => "psproject_dev"
         bin.install ".build/arm64-apple-macosx/release/PythonSwiftProject_PSProjectGen.bundle"
     end
   end
