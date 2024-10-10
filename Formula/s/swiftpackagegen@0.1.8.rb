@@ -1,5 +1,5 @@
 
-class Swiftpackagegen < Formula
+class SwiftpackagegenAT018 < Formula
   depends_on "xcodegen"
   desc ""
   homepage ""
