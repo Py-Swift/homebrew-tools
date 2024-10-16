@@ -1,17 +1,16 @@
 
-class Psproject < Formula
+class Pstoolchain < Formula
   depends_on "xcodegen"
   desc ""
   homepage ""
 
-  url "https://github.com/PythonSwiftLink/PSProjectGenerator/releases/download/0.0.7/PSProject.tar.gz"
-  version "0.0.7"
-  sha256 "4faaa36f99dd279440e9486d0cbc7aec7930d48fa905d54c000fb76da4e86ae7"
+  url "https://github.com/PythonSwiftLink/PSToolchain/releases/download/0.0.1/PSToolchain.tar.gz"
+  version "0.0.1"
+  sha256 "5d5102448973e6efeeb2fd11264bbbc6b21038907d5fc27fe4cbc55cfafe1c27"
   license ""
 
   def install
     bin.install "PSProject"
-    bin.install "PythonSwiftProject_PSProjectGen.bundle"
     end
 
   test do

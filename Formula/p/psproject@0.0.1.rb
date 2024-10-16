@@ -1,12 +1,12 @@
 
-class PsprojectAT001 < Formula
+class PstoolchainAT001 < Formula
   depends_on "xcodegen"
   desc ""
   homepage ""
 
-  url "https://github.com/PythonSwiftLink/PSProjectGenerator/releases/download/0.0.1/PSProject.tar.gz"
+  url "https://github.com/PythonSwiftLink/PSToolchain/releases/download/0.0.1/PSToolchain.tar.gz"
   version "0.0.1"
-  sha256 "c32605c6bbc60d8999576222a618b3d0a6ba5c722e0f994f8d0a62579cf52fb3"
+  sha256 "5d5102448973e6efeeb2fd11264bbbc6b21038907d5fc27fe4cbc55cfafe1c27"
   license ""
 
   def install
