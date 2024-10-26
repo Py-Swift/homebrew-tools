@@ -6,7 +6,7 @@ class Pstoolchain < Formula
 
   url "https://github.com/PythonSwiftLink/PSToolchain/releases/download/0.0.2/PSToolchain.tar.gz"
   version "0.0.2"
-  sha256 "189879ed994ffe50636dd6562c3268e6b698b9ca77df646743e77dc1e84470f3"
+  sha256 "a0046ac9d87eb109452a17015b31c56169ddd3dfff15139abf5731cb22925d23"
   license ""
 
   def install
