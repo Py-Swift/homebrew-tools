@@ -1,5 +1,5 @@
 
-class Pstoolchain < Formula
+class PstoolchainAT002 < Formula
   depends_on "xcodegen"
   desc ""
   homepage ""
