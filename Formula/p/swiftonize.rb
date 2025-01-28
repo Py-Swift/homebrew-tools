@@ -4,9 +4,9 @@ class Swiftonize < Formula
   desc ""
   homepage ""
 
-  url "https://github.com/PythonSwiftLink/SwiftonizeGenerator/releases/download/0.0.4/Swiftonize.tar.gz"
+  url "https://github.com/PythonSwiftLink/Swiftonize/releases/download/0.0.4/Swiftonize.tar.gz"
   version "0.0.4"
-  sha256 "2ccacecdad8db18c4ddaac8f19ca9914f785ff492b66de80a44394f760700445"
+  sha256 "062180e489844cae56a963fec1cdf547480194a11e10b06ebbbedac85a9ce86c"
   license ""
 
   def install
