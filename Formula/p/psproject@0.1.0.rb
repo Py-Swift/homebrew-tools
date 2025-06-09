@@ -6,7 +6,7 @@ class PsprojectAT010 < Formula
 
   url "https://github.com/PythonSwiftLink/PSProjectGenerator/releases/download/0.1.0/PSProject.tar.gz"
   version "0.1.0"
-  sha256 "372b2abb0c85e86a4162eed25ca55b4f380924d6ed6e2e24131bca6d458a8656"
+  sha256 "ad40ee3ec2d6e1dbfca886533c0c625b4da4173166137724205e441a505b1d5d"
   license ""
 
   def install
