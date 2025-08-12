@@ -6,7 +6,7 @@ class Psproject < Formula
 
   url "https://github.com/PythonSwiftLink/PSProjectGenerator/releases/download/0.2.0/PSProject.tar.gz"
   version "0.2.0"
-  sha256 "5d94cbd72e0b1ebd1a26f7378596c264c58c8e560a99da498e6a307573ba7bb9"
+  sha256 "da29fc9b8e1d723e4d2ee245b3ef833d5f68759f2dd9405cce101d7693d5d1ab"
   license ""
 
   def install
