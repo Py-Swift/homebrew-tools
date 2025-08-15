@@ -1,5 +1,5 @@
 
-class Psproject < Formula
+class PsprojectAT024 < Formula
   depends_on "xcodegen"
   desc ""
   homepage ""
