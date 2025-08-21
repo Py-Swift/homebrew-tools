@@ -11,7 +11,7 @@ class PsprojectAT027 < Formula
 
   def install
     bin.install "PSProject"
-    bin.install "PythonSwiftProject_PSProjectGen.bundle"
+    bin.install "PSProjectGenerator_PSProjectGen.bundle"
     bin.install "Python.framework"
     end
 
