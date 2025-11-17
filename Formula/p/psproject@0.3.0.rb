@@ -4,7 +4,7 @@ class PsprojectAT030 < Formula
   desc ""
   homepage ""
 
-  url "https://github.com/PythonSwiftLink/Py-Swift/releases/download/0.3.0/PSProject.tar.gz"
+  url "https://github.com/Py-Swift/PSProjectGenerator/releases/download/0.3.0/PSProject.tar.gz"
   version "0.3.0"
   sha256 "a309c2627d2d16b6ba5d2eb15be6687ba635dd9ee070877c549efe4b7a2ccd13"
   license ""
